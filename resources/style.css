@@ -80,7 +80,8 @@ p, li {
 }
 
 .subheading {
-    padding: 30px 30px 20px;
+    margin: 0 auto .5rem auto;
+    width: 80%;
     font: sans-serif;
     font-size: 50px;
 }
@@ -190,8 +191,7 @@ p, li {
     border-radius: 10px;
     box-shadow: 5px 5px 5px lightgrey;
     width: 80%;
-    margin: 0 auto 20px auto;
-    
+    margin: 0 auto 20px auto;   
 }
 
 .skills-heading {
@@ -203,7 +203,8 @@ p, li {
 }
 
 .skills-subheading {
-    padding-left: 30px;
+    margin: 0 auto .5rem auto;
+    width: 80%;
 }
 
 .skills-logo-frame {
@@ -226,6 +227,21 @@ p, li {
 
 .skills-description {
     text-align: center;
+}
+
+#skills-logo-1 {
+    background-image: url(./problem-solving-icon-2\ \(2\).jpg);
+    background-size: cover;
+}
+
+#skills-logo-2 {
+    background-image: url(./communication-icon-2.jpg);
+    background-size: cover;
+}
+
+#skills-logo-3 {
+    background-image: url(./adaptability-icon-2.jpg);
+    background-size: cover;
 }
 
 .contact-box {
