@@ -1,8 +1,9 @@
 // alert("Welcome to my page.");    
 
 let contactInfoBox = document.getElementById("contact-info-box");
+let contactInfoDetails = document.getElementById("contact-info-details");
 
 contactInfoBox.addEventListener("click", () => {
-    alert("I got clicked");
+    contactInfoDetails.style.display = "flex";
 }
 )   
