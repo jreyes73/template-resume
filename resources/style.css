@@ -5,7 +5,7 @@
 }
 
 nav {
-    background-color: gray;
+    background-color: white;
     height: 3rem;
     border-bottom: 1px solid #36454f;
     box-shadow: 1px 1px lightslategray;
@@ -170,6 +170,7 @@ p, li {
 .skills ul {
     margin-left: 45px;
     line-height: 25px;
+    width: 80%;
 }
 
 .duties {
@@ -184,6 +185,7 @@ p, li {
 .duties ul {
     margin-left: 45px;
     line-height: 25px;
+    width: 80%;
 }
 
 .skills-details {
@@ -260,6 +262,10 @@ p, li {
     background-repeat: no-repeat;
 }
 
+.bottom-gap {
+    margin-bottom: 4rem;
+}
+
 .contact-box {
     display: flex;
     justify-content: center;
@@ -279,37 +285,51 @@ p, li {
 }
 
 #contact-info-details {
-    padding-top: 1rem;
+    border: 3px gray solid;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px lightgrey;
+    width: 80%;
+    margin: 0 auto 20px auto;
     display: none;
     flex-direction: column;
     line-height: 2rem;
     font-size: 1.2rem;
+    font-weight: 700;
+}
+
+#contact-info-details p {
+    padding-top: 1rem;
+    padding-left: 25px;
 }
 
 .sns {
-    margin: 1.5rem auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .sns-frame {
     display: inline-block;
     width: 100px;
     height: 100px;
-    border: 3px gray solid;
-    border-radius: 10px;
     box-shadow: 5px 5px 5px lightgrey;
 }
 
 #linkedin-logo {
     background-image: url(./linked-in-logo.jpg);
     background-size: cover;
+    border-radius: 10px;
 }
 
 #instagram-logo {
     background-image: url(./instagram-logo.jpg);
     background-size: cover;
+    border-radius: 30px;
 }
 
 @media only screen and (min-width: 768px) {
+
     .img-banner {
         display: block;
         width: 100%;
@@ -350,6 +370,11 @@ p, li {
         box-shadow: 5px 5px;
     }
 
+    .skills-details {
+        background-color: greenyellow;
+        width: 60%;
+    }
+
 }
 
 @media only screen and (min-width: 1000px) {
@@ -375,4 +400,5 @@ p, li {
         /* width: 50%; */
         float: left;
     }
+
 }
