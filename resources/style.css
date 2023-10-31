@@ -397,6 +397,7 @@ p, li {
         font-size: .8rem;
         padding: .5rem;
     }
+}
 
 @media only screen and (min-width: 1000px) {
     .wrapper {
