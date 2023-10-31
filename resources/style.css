@@ -305,8 +305,8 @@ p, li {
 .sns {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .sns-frame {
@@ -370,12 +370,33 @@ p, li {
         box-shadow: 5px 5px;
     }
 
-    .skills-details {
-        background-color: greenyellow;
-        width: 60%;
+    .skills-test {
+        display: flex;
+        flex-wrap: wrap;
     }
 
-}
+    .skills-details {
+        width: 45%;
+    }
+
+    .skills-details-header {
+        height: 3rem;
+    }
+
+    .skills-heading {
+        font-size: 1rem;
+    }
+
+    .skills-logo-frame {
+        width: 100px;
+        height: 100px;
+        margin: .5rem auto;
+    }
+
+    .skills-description {
+        font-size: .8rem;
+        padding: .5rem;
+    }
 
 @media only screen and (min-width: 1000px) {
     .wrapper {
