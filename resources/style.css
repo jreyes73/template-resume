@@ -119,9 +119,16 @@ p, li {
     display: flex;
     padding-left: 25px;
     height: 7rem;
-    background-color: #e6f3f8;
     border-radius: 10px 10px 0px 0px;
     align-items: center;
+}
+
+.work-color {
+    background-color: #e6f3f8;
+}
+
+.education-color {
+    background-color: lightgreen;
 }
 
 .details-info {
@@ -155,6 +162,21 @@ p, li {
 
 #education-logo-3 {
     background-image: url(./lighthouse\ -\ reverse.png);
+    background-size:cover;
+}
+
+#work-logo-1 {
+    background-image: url(./company-1.jpg);
+    background-size: cover;
+}
+
+#work-logo-2 {
+    background-image: url(./company-2.jpg);
+    background-size: cover;
+}
+
+#work-logo-3 {
+    background-image: url(./company-3.jpg);
     background-size:cover;
 }
 
@@ -224,7 +246,6 @@ p, li {
     height: 4rem;
     background-color: #e6f3f8;
     border-radius: 10px 10px 0px 0px;
-    align-items: center;
 }
 
 .skills-description {
@@ -359,9 +380,9 @@ p, li {
         padding: 20px 0px 0px;
     }
     
-    .img-info p {
+    /* .img-info p {
         padding: 20px 0px 0px;
-    }
+    } */
 
     .img-me {
         margin-top: 30px;
@@ -370,7 +391,23 @@ p, li {
         box-shadow: 5px 5px;
     }
 
-    .skills-test {
+    .degree,
+    .position {
+        font-size: 1.5rem;
+        line-height: 1.7rem;
+    }
+
+    .smaller-font {
+        font-size: 1rem;
+        line-height: 18px;
+    }
+
+    #skills-title,
+    .skills-subheading {
+        margin-left: 0.75rem;
+    }
+
+    .skills-flex-section {
         display: flex;
         flex-wrap: wrap;
     }
@@ -383,8 +420,9 @@ p, li {
         height: 3rem;
     }
 
-    .skills-heading {
+    .skills-details-header .details-info .skills-heading {
         font-size: 1rem;
+        padding-top: 0rem;
     }
 
     .skills-logo-frame {
@@ -396,6 +434,10 @@ p, li {
     .skills-description {
         font-size: .8rem;
         padding: .5rem;
+    }
+
+    .skills ul {
+        width: 85%;
     }
 }
 
