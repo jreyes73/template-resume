@@ -482,13 +482,21 @@ h1 {
     }
     
     .img-info p {
-        padding: 20px 0px 0px 30px;
+        padding: 0px 0px 0px 30px;
     }
 
     .img-me {
         padding-top: 0px;
         /* width: 50%; */
         float: left;
+    }
+
+    .img-banner {
+        height: 95vh;
+    }
+
+    #greeting-1 {
+        padding-left: 30px;
     }
 
 }
