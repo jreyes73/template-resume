@@ -32,6 +32,11 @@ nav ul {
     height: 3rem;
 }
 
+
+#skills-blank {
+    background-color: red;
+}
+
 li a {
     text-decoration: none;
     font-family: sans-serif;
@@ -447,7 +452,7 @@ h1 {
         line-height: 18px;
     }
 
-    #skills-title,
+    #skills-title-2,
     .skills-subheading {
         margin-left: 0.75rem;
     }
