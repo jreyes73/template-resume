@@ -33,8 +33,8 @@ nav ul {
 }
 
 
-#skills-blank {
-    /* background-color: red; */
+#contact-blank {
+    background-color: red;
 }
 
 li a {
@@ -439,7 +439,6 @@ h1 {
     
 
     .img-me {
-        margin-bottom: 30px;
         border: 3px gray solid;
         border-radius: 10px;
         box-shadow: 5px 5px 5px lightgrey;
@@ -601,6 +600,14 @@ h1 {
 
     #contact-info-details {
         width: 60%;
+    }
+
+    #contact-info-box {
+        margin-top: 3rem;
+    }
+
+    .skills-flex-section{
+        margin-bottom: 3rem;
     }
 
 }
